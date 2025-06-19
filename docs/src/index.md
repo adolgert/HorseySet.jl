@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = StableSet
+CurrentModule = HorseySet
 ```
 
-# StableSet
+# HorseySet
 
-Documentation for [StableSet](https://github.com/adolgert/StableSet.jl).
+Documentation for [HorseySet](https://github.com/adolgert/HorseySet.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [StableSet]
+Modules = [HorseySet]
 ```
