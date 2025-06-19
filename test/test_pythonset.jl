@@ -1,5 +1,4 @@
-using Test
-include("../src/PythonSet.jl")
+using ReTest
 
 @testset "PythonHashSet Basic Structure" begin
     @testset "HashTableEntry" begin
