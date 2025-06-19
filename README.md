@@ -6,6 +6,8 @@
 
 HorseySet.jl provides a `StableSet` data structure that maintains insertion order while providing efficient set operations. Unlike Julia's built-in `Set`, `StableSet` preserves the order in which elements were first added.
 
+This repository asks whether emulating the Python hash-based stable set is advantageous in Julia, and the answer seems to be no from the benchmarks in test/benchmark.jl. The fully-ordered sets are faster. Maybe the implementation needs to be tweaked because a stable set should be faster than a fully-ordered set.
+
 ## Usage
 
 ```julia
